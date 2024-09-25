@@ -1,0 +1,25 @@
+{
+  "name": "lighthouse",
+  "version": "1.0.0",
+  "main": "comparison.js",
+  "bin": {
+    "lighthouse": "./comparison.js"
+  },
+  "scripts": {
+    "start": "node comparison.js"
+  },
+  "pkg": {
+    "targets": [
+      "node14-linux-x64",
+      "node14-win-x64",
+      "node14-macos-arm64"
+    ],
+    "output": "C:/WorkSpace/Lighthouse"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "log4js": "^6.9.1",
+    "properties-reader": "^2.3.0",
+    "winston": "^3.14.2"
+  }
+}
